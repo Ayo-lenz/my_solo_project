@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.home{
+  margin: o;
+  padding: 0;
+  background-image: url(./Images/pexels-pixabay-235925.jpg); 
+  background-size: cover;
+  height: 90vh;
+}
+
+.home-text{
+  padding-top: 100px;
+  min-width: 40%;
+  width: min(425px, calc(70% + 80px));
+  margin: 0 auto;
+}
+
+.information{
+  padding-top: 100px;
+  min-width: 80%;
+  width: min(425px, calc(70% + 80px));
+  margin: 0 auto;
+}
+
+.slider-img{
+  height: 300px;
+}
+
+.slider-container{
+  min-width: 80%;
+  width: min(425px, calc(70% + 80px));
+  margin: 0 auto;
+}
+
+.vision{
+  border-right: 1px solid black;
+}
+
+/* form design */
+.form{
+  min-width: 50%;
+  width: min(425px, calc(70% + 80px));
+  margin: 0 auto;
+  background-color: #E9F5E9;
+}
+
+.sign-header{
+  min-width: 50%;
+  width: min(425px, calc(70% + 80px));
+  margin: 0 auto;
+}
+
+.sign-input{
+  border-radius: 5px;
+  border: none;
+  min-width: 60%;
+  width: min(425px, calc(70% + 80px));
+}
+
+/* .sign-input:focus{
+  outline: none;
+} */
+
+/* user account starts here */
+.account{
+  min-width: 75%;
+  width: min(425px, calc(70% + 80px));
+  margin: 0 auto;
+  background-color: #E5F2FF;
+}
+
+.profile-form{
+  min-width: 100%;
+  width: min(425px, calc(70% + 80px));
+  
+}
+
+.profile-input{
+  width: 100%;
+}
+
+.feed-image{
+  height: 150px;
+  width: 100%;
+}
+
+/* markets page */
+
+.market{
+  min-width: 50%;
+  width: min(425px, calc(70% + 80px));
+  margin: 0 auto;
+  background-color: #E5F2FF;
+}
