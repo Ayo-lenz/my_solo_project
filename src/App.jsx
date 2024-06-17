@@ -11,7 +11,7 @@ function App() {
   
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/my_solo_project/'>
       <Header>
         <Routes>
           <Route path='/' element={<Home />}/>
