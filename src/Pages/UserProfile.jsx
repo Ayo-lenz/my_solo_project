@@ -48,6 +48,7 @@ const UserProfile = () => {
           img: newImg,
           summary: newSummary
         };
+        // spread operator is used in an object literals here to edit the existing values of the object
       }
       return newProfile;
     });
@@ -64,7 +65,8 @@ const UserProfile = () => {
       description: description,
       price: price,
     };
-    setFeed([...feed, addFeed]);
+    setFeed([...feed, addFeed]); 
+    // this is to add the addFeed object into the feed array using spreed operator in array literals
   };
 
   return (
